@@ -1,0 +1,407 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  ifconfig
+    3  net-tools
+    4  sudo apt install net-tools
+    5  ifconfig
+    6  ls -l
+    7  ls -la
+    8  clear
+    9  ls -la
+   10  man
+   11  man man
+   12  ls
+   13  ls -la
+   14  cd /
+   15  cd /root/
+   16  cd /home/
+   17  cd /home/desktop/
+   18  cd /home/devops-Virtualbox/
+   19  clear
+   20  cd /devops
+   21  cd /home/
+   22  ls -la
+   23  pwd
+   24  cd.
+   25  cd .
+   26  pwd
+   27  cd ..
+   28  pwd
+   29  cd /usr/bin/
+   30  pwd
+   31  cd /home/
+   32  cd /home/devops/
+   33  pwd
+   34  mkdir test
+   35  ls -l
+   36  mkdir test2
+   37  mv test test2/
+   38  ls -la
+   39  ls -l
+   40  cd /test2/
+   41  cd test2
+   42  cd ..
+   43  ls -la
+   44  clear
+   45  pwd
+   46  rm test
+   47  rm/ test/
+   48  ls -l
+   49  rm -r test2/
+   50  ls -l
+   51  clear
+   52  ls
+   53  cd /Desktop
+   54  cd Desktop/
+   55  ls -l
+   56  cd ..
+   57  ls -lh
+   58  mkdir test
+   59  ls -lh
+   60  mkdir test/
+   61  mkdir/ test2/
+   62  mkdir test2/
+   63  ls -lh
+   64  clear
+   65  ls -l
+   66  touch tile
+   67  ls -la
+   68  mkdir test2/test3
+   69  cd test2
+   70  ls -la
+   71  cd..
+   72  cd ..
+   73  ls -lh
+   74  clear
+   75  cat test
+   76  cat tile
+   77  cat /var/log/
+   78  clear
+   79  echo Hello world
+   80  echo Hello world >fello_world
+   81  ls -la
+   82  cat fello_world
+   83  echo Hello world >>fello_world
+   84  cat fello_world
+   85  cls
+   86  clear
+   87  les 
+   88  sudo apt install atm-tools
+   89  '
+   90  less
+   91  uname
+   92  clear
+   93  uneame
+   94  uname
+   95  uname -r
+   96  nano /etc/os-release/
+   97  vim /etc/os-release/
+   98  whoami
+   99  ls
+  100  tar -vcf test/ archive.tar.gz
+  101  tar -vcf test-dir/ archive.tar.gz
+  102  man tar
+  103  clear
+  104  ls
+  105  grep fello_world
+  106  cat fello_world | grep Armenia
+  107  tail
+  108  tail /test2
+  109  tail test2
+  110  tail /var/log/
+  111  diff test test2
+  112  ls test2
+  113  echo >> file1
+  114  echo a  >> file1
+  115  echo ba  >> file21
+  116  diff file1 file21
+  117  clear
+  118  echo dog > animals
+  119  echo cat > animals
+  120  echcat > animals
+  121  nano animals
+  122  zip
+  123  unizp
+  124  ssd username@hostname
+  125  ssh username@hostname
+  126  ps
+  127  man ps
+  128  tracepath 8.8.8.8
+  129  sudo apt install traceroute
+  130  traceroute 8.8.8.8
+  131  pwd
+  132  ls
+  133  is
+  134  ls
+  135  touch file1
+  136  ls
+  137  touch file 2
+  138  ls
+  139  cat file1
+  140  nano file1
+  141  ls
+  142  cd /bin
+  143  ls
+  144  ls -lh
+  145  cd /home/devops
+  146  ls
+  147  pwd
+  148  ls
+  149  cd /bin
+  150  ls
+  151  ls -ld
+  152  cd /
+  153  ls
+  154  cd bin
+  155  ls
+  156  ls -lh
+  157  cd opt
+  158  cd ..
+  159  ls
+  160  cd opt
+  161  ls
+  162  ls -ld
+  163  ls -lh
+  164  pwd
+  165  cd boot/
+  166  cd /boot
+  167  ls
+  168  cd /opt
+  169  ls
+  170  ls -ld
+  171  cd /dev
+  172  ls
+  173  ls -lh
+  174  cd /etc
+  175  ls -lh
+  176  netwotk
+  177  cd /home
+  178  ls
+  179  pwd
+  180  cd /lib
+  181  ls
+  182  ls -lh
+  183  cd /media
+  184  ls
+  185  ls -lh
+  186  cd /mnt
+  187  ls -lh
+  188  cd /root/
+  189  sudo cd /root
+  190  cd /sbin
+  191  ls
+  192  cd /usr
+  193  ls
+  194  cd /srv
+  195  ls -lh
+  196  cd /var
+  197  ls
+  198  cd /log
+  199  cd log
+  200  pwd
+  201  cd home/
+  202  cd/ home/
+  203  cd /home/
+  204  cd /home
+  205  cd /
+  206  cd home/
+  207  cd /devops
+  208  cd devops
+  209  pwd
+  210  ls -h
+  211  ls -lh
+  212  cd /mnt/
+  213  ls
+  214  pwd
+  215  cd /proc
+  216  ls -lh
+  217  ls
+  218  cat meminfo
+  219  traceroute 8.8.8.8
+  220  cat /var/log/syslog | grep kernel
+  221  cat /var/log/syslog | grep kernel >> kernel_info
+  222  cat kernel_info
+  223  history
+  224  clear
+  225  apt-cache search zabbix
+  226  apt-cache search zabbix >> zabbix-Package.txt
+  227  cat zabbix-package.txt
+  228  cat zabbix-Package.txt
+  229  zip zabbix-Package.zip zabbix-Package.txt
+  230  ls-lh
+  231  ls-la
+  232  ls -la
+  233  clear
+  234  sudo u
+  235  cd /var/log/
+  236  ls -lh
+  237  touch process.log
+  238  sudo u
+  239  sudo su
+  240  top
+  241  ps
+  242  ps -aux
+  243  ps -e
+  244  pgrep ssh
+  245  apt update
+  246  sudo apt update
+  247  nano /etc/apt/source list
+  248  apt-cache search
+  249  apt-cache search telnet
+  250  apt install dhcp
+  251  sudo apt install dhcp
+  252  systemctl status
+  253  systemctl status --all
+  254  systemctle daemon reload
+  255  systemctl daemon reload
+  256  systemctl daemon-reload
+  257  cat /etc/fstab
+  258  cat /etc/mtab
+  259  cat /etc/fstab
+  260  htop
+  261  ps -ea
+  262  ps -aux
+  263  htop
+  264  crontab -e
+  265  systemctl status cron
+  266  crontab -e
+  267  nano /etc/crontab
+  268  sudo su
+  269  ls
+  270  ls -lh
+  271  ls -la
+  272  pwd
+  273  cd /root
+  274  cd /
+  275  mkdir test001 /home/devops
+  276  mkdir -r  test001 /home/devops
+  277  man mkdir
+  278  cd /home/devops
+  279  ls
+  280  mkdir test001
+  281  ls
+  282  mv test001 /home/
+  283  mv -r test001 /home/
+  284  git branch
+  285  ls
+  286  ls -la
+  287  clear
+  288  git clone https://github.com/Abraham777-1/Abo-branch.git
+  289  ls -la
+  290  cd Abo-branch
+  291  ls -la
+  292  echo test
+  293  nano test
+  294  pwd
+  295  cat test
+  296  git *
+  297  git add *
+  298  git status
+  299  git commit -m "test committed"
+  300  git config --global user.email "abraham.alaverdyan@gmail.com"
+  301  git config --global user.name  "abraham"
+  302  git commit -m "test committed"
+  303  git push
+  304  ll ~/ .ssh/
+  305  cd ..
+  306  ssh keygen
+  307  ssh - keygen
+  308  ssh -keygen
+  309  pws
+  310  pwd
+  311  ssh -keygen
+  312  ssh-keygen
+  313  cd ~/ .ssh/
+  314  cd ~/.ssh/
+  315  ls
+  316  ls -la
+  317  cd ..
+  318  ll ~/.ssh/
+  319  cd ..
+  320  ls -la
+  321  cd devops
+  322  ls -la
+  323  cat y
+  324  clear\
+  325  clear
+  326  ls -la
+  327  rm y
+  328  rm y.pub
+  329  ls -la
+  330  pwd
+  331  ll ~/.ssh/
+  332  ssh-keygen
+  333  ll ~/.ssh/
+  334  cat ~/.ssh/id_rsa.pub
+  335  git push
+  336  ls -lh
+  337  cd Abo-branch
+  338  git status
+  339  ls
+  340  git add .
+  341  git status
+  342  git add test
+  343  ls
+  344  git status
+  345  cd Abo-branch
+  346  git branch --unset-upstream
+  347  cd Abo-branch
+  348  cd ..
+  349  ls -lh
+  350  cd Abo-branch
+  351  ls
+  352  git status
+  353  git add test
+  354  git status
+  355  clear
+  356  cd ..
+  357  rm Abo-branch
+  358  rmdir Abo-branch
+  359  rmdir -r Abo-branch
+  360  rm -rf Abo-branch
+  361  ls -lh
+  362  git clone https://github.com/Abraham777-1/Abo-branch.git
+  363  cd Abo-branch
+  364  nano test
+  365  ls -lh
+  366  git add test
+  367  sit status
+  368  git status
+  369  git commit -m "new commit1"
+  370  git push
+  371  git remote set-url origin https://<token>@github.com/<git_url>
+  372  git remote set-url origin https:// <token>@github.com/<git_url>
+  373  git remote set-url origin https:// <token> @github.com/<git_url
+  374  git push
+  375  clear
+  376  cd /.sh
+  377  cd /.ssh
+  378  ls -lh
+  379  git brand -d Abo-branch
+  380  rmdir Abo-branch
+  381  rmdir -r Abo-branch
+  382  history
+  383  rm -rf Abo-branch
+  384  ls -la
+  385  cd .ssh
+  386  ls
+  387  rm id_rsa  id_rsa.pub
+  388  ls
+  389  clear
+  390  cls
+  391  clear
+  392  git push origin  --delete Abo-branch
+  393  cd ..
+  394  clear
+  395  git clone https://github.com/Abraham777-1/Abo_git.git
+  396  ls -la
+  397  cd Abo_git
+  398  nano Araham
+  399  git status
+  400  git add .
+  401  git commit -m "Vers 1.0"
+  402  git log
+  403  git  push
+  404  git branch fix_error
+  405  git checkout fix_error
+  406  hostory >> History1.txt
+  407  history >> History1.txt
